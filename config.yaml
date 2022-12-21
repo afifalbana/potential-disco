@@ -1,0 +1,19 @@
+# File config.yaml
+
+scrap_config:
+  - scrap_interval: '5' # In seconds
+
+db_config:
+  - db_plesk_name: 'psa'
+  - db_app_name: 'domainRestrict'
+  - db_app_user: 'domainRestrict'
+  - db_app_password: ''
+  - db_app_host: 'localhost'
+
+# To get token, run `plesk bin secret_key -c` . Put host and token in order.
+api_access:
+  - hosts:
+      - 'e.g node01.kilathosting.id'
+
+  - api_tokens:
+      - ''
